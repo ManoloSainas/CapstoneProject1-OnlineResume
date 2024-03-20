@@ -7,38 +7,44 @@ img{
 
 html {
     background-color:#EEEEEE;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-h1{
+#h1{
     text-align: center;
     font-weight: bold;
     font-size: 50px;
     color: #000000d0;
     background-color: #00ADB5;
+    font-family: "Bai Jamjuree";
 }
 
-h2{
+.h2{
     font-weight: normal;
     font-size: 40px;
     color: #40513B;
 }
  
 ul{
+    font-weight: normal;
     color: #393E46;
     font-size: 20px;
 }
 
 p{
+    font-weight: normal;
     font-size: 20px;
     color: #393E46;
 }
 
 .link{
+    font-weight: normal;
     font-size: 20px;
     color: #00ADB5;
 }
 
 #footer{
+    font-weight: normal;
     text-align: center;
     font-size: 20px;
     color: #393E46;
