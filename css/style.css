@@ -51,6 +51,11 @@ footer{
 
 
 @media (max-width: 680px) {
+
+    .logo{
+        width: 100px;
+        border-radius: 50%;
+    }
   
     h1 {
       font-size: 3.5rem;
