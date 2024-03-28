@@ -13,6 +13,7 @@ body {
 
 h1{
     font-size: 2.8rem;
+    margin-bottom: 80px;
 }
 
 .card{
@@ -25,6 +26,7 @@ h1{
 
 .right{
     float: right;
+    margin-bottom: 80px;
 }
 
 .creative {
@@ -32,8 +34,8 @@ h1{
 }
 
 .myPic{
-    height: 115px;
-    width: 115px;
+    height: 140px;
+    width: 140px;
     border: 5px solid #00ADB5;
     border-radius: 50%;
     float: left;
@@ -56,20 +58,31 @@ footer{
 
 
 @media (max-width: 680px) {
-    .logo {
-      width: 100px;
+
+    .myPic{
+        height: 150px;
+        width: 150px;
+        border: 5px solid #00ADB5;
+        border-radius: 50%;
+        float: left;
     }
   
     h1 {
       font-size: 3.5rem;
       text-align: center;
+      margin-bottom: 80px;
     }
   
     .card {
       width: 100%;
       display: block;
-      margin-bottom: 30px;
       text-align: justify;
+      margin-bottom: 50px;
+    }
+
+    .right{
+        float: left;
+        margin-bottom: 80px;
     }
   }
   
