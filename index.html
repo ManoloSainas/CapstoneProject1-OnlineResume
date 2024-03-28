@@ -1,39 +1,39 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>My Resume</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My site - Manolo Sainas</title>
+
         <link rel="stylesheet" type="text/css" href="/CapstoneProject1-OnlineResume/css/style.css">
-    
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Rubik+Glitch+Pop&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     </head>
     
     <body>
-        <div id="picAndName">
-            <img id= "myPic" src="/CapstoneProject1-OnlineResume/img/my photo.jpg" alt="my photo">
-            <h1 id="myName">Manolo Sainas</h1>
-        </div>
+        <div class="main">
+            <img class= "myPic" src="/CapstoneProject1-OnlineResume/img/my photo.jpg" alt="my photo">
+            <h1>I'm a <span class="creative">front-end developer</span></h1>
         
-        <div id = aboutMe>
-            <div>
-                <h2 class="h2">About me</h2>
-                <p>I am currently studying Computer Science at the University of Cagliari (Italy). 
+            <div class="left card">
+                <h2 class="card-title">About me</h2>
+                <p class="card-text">My name is Manolo Sainas. I am currently studying Computer Science at the University of Cagliari (Italy). 
                 I would love to turn my passion into a career.</p>
             </div>
-                    
-            <div id="contactMe">
-                <h2 class="h2">Contact me</h2>
+                        
+            <div class="right card">
+                <h2 class="card-title">Contact me</h2>
                 <ul>
                     <li><a class="link" href="https://www.linkedin.com/in/manolo-sainas/"> Linkedin</a></li>
                     <li><a class="link" href="https://github.com/ManoloSainas"> Github</a></li>
                 </ul>
             </div>
         </div>
-        
-    </body>
 
-    <footer id="footer">
-        <p>© Manolo Sainas. All rights reserved.</p>
-    </footer>
+            <footer>
+                <p>© Manolo Sainas. All rights reserved.</p>
+            </footer>
+        </div>
+    </body>
 </html>
