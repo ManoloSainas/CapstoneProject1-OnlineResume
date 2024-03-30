@@ -1,1 +1,1 @@
-First Capstone Project: online resume
+Online resume
